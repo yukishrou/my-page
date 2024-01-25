@@ -8,7 +8,13 @@ body {
     padding: 0;
 }
 
+section.visible {
+    opacity: 1;
+}
+
 section {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
     border: 1px solid #fff;
     padding: 20px;
     margin: 20px;
@@ -48,3 +54,4 @@ img {
     margin-bottom: 20px;
     font-size: 12px;
 }
+
